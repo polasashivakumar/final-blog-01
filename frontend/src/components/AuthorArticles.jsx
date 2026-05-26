@@ -27,7 +27,7 @@ function AuthorArticles() {
 
       try {
         const res = await axios.get(
-          `https://final-blog-app.onrender.com/author-api/articles/${user._id}`,
+          `https://final-blog-01.onrender.com/author-api/articles/${user._id}`,
           {
             withCredentials: true,
           }
